@@ -1,0 +1,6 @@
+/* Remove default margin or padding that the browser's vieport applies for clean start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
