@@ -4,3 +4,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
+
+body {
+    min-height: 100vh;
+}
