@@ -15,6 +15,20 @@
     font-family: "poppins", sans-serif;
 }
 
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: #c8c7c7;
+    ;
+    --main-color: #00ffee;
+}
+
+
+
+
+
+
+
 /* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
 
 body {
