@@ -25,7 +25,6 @@
 html {
     font-size: 60%;
     overflow-x: hidden;
-
 }
 
 
@@ -34,7 +33,6 @@ html {
 body {
     background: var(--bg-color);
     color: var(--text-color);
-    min-height: 100vh;
 }
 
 header {
@@ -74,4 +72,17 @@ header {
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--main-color);
+    display: none;
+
 }
