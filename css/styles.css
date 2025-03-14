@@ -107,3 +107,11 @@ section {
     text-align: left;
     margin-top: 3rem;
 }
+
+span {
+    color: var(--main-color);
+}
+
+.logo span {
+    color: var(--main-color);
+}
