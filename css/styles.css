@@ -115,3 +115,29 @@ span {
 .logo span {
     color: var(--main-color);
 }
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.home-content h3 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.home-img {
+    border-radius: 50%;
+}
+
+.home-img img {
+    position: relative;
+    top: 3rem;
+    width: 32vw;
+    /* bg of main img glow effect 
+    box-shadow: 0 0 25px var(--main-color);
+    */
+}
