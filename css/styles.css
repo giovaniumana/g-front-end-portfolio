@@ -84,5 +84,16 @@ header {
     font-size: 3.6rem;
     color: var(--main-color);
     display: none;
+}
 
+section {
+    min-height: 100vh;
+    padding: 10rem 12% 10 rem;
+}
+
+.home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
