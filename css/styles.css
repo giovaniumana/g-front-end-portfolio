@@ -22,14 +22,36 @@
     --main-color: #00ffee;
 }
 
+html {
+    font-size: 60%;
+    overflow-x: hidden;
 
-
-
-
+}
 
 
 /* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
 
 body {
+    background: var(--bg-color);
+    color: var(--text-color);
     min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 12% 4rem;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
 }
