@@ -132,7 +132,6 @@ span {
     line-height: 1;
 }
 
-
 .home-img img {
     position: relative;
     top: 3rem;
@@ -147,10 +146,11 @@ span {
 }
 
 .home-content p {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 150;
     line-height: 1.8;
-    max-width: 1000px;
+    letter-spacing: 0.16rem;
+    max-width: 768px;
 }
 
 .social-icons a {
