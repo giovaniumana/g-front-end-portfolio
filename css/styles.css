@@ -157,8 +157,8 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 3.33rem;
+    height: 3.33rem;
     background: transparent;
     border: 2px solid var(--main-color);
     font-size: 2.5rem;
