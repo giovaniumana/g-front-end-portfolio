@@ -310,7 +310,9 @@ span {
 /* Education */
 
 .heading {
-    font-size: 8rem;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: .25rem;
     text-align: center;
     margin: 5rem 0;
 }
@@ -325,7 +327,7 @@ span {
 }
 
 .timeline-items {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -375,7 +377,7 @@ span {
 
 .timeline-date {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 500;
     color: white;
     margin: 6px 0 15px;
 }
@@ -407,4 +409,17 @@ span {
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
+    width: 50px;
 }
