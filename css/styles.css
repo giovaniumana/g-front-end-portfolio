@@ -433,7 +433,7 @@ span {
 
 .services h2 {
     margin-bottom: 5rem;
-    color: white;
+    color: var(--text-color);
 }
 
 .services-container {
@@ -446,8 +446,8 @@ span {
 .service-box {
     background-color: var(--main-color);
     height: 175px;
-    border-radius: 2rem;
-    border-radius: 2rem;
+    border-radius: 3rem;
+    border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
