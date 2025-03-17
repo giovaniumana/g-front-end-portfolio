@@ -439,6 +439,8 @@ span {
 .services-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 150px;
+    margin-right: 150px;
     align-items: center;
     gap: 2.5rem;
 }
@@ -446,7 +448,6 @@ span {
 .service-box {
     background-color: var(--main-color);
     height: 175px;
-    border-radius: 3rem;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -473,7 +474,7 @@ span {
 .service-info h4 {
     font-size: 3rem;
     font-weight: 800;
-    line-height: 2;
+    line-height: 1;
 }
 
 .service-info p {
