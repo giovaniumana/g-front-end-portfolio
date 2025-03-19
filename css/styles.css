@@ -317,12 +317,12 @@ span {
     margin: 5rem 0;
 }
 
-.education {
+.experience {
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
 
-.education h2 {
+.experience h2 {
     margin-bottom: 5rem;
 }
 
@@ -399,13 +399,13 @@ span {
 
 .timeline-content h3 {
     font-size: 20px;
-    color: white;
+    color: #c8c7c7;
     margin: 0 0 10px;
     font-weight: 500;
 }
 
 .timeline-content p {
-    color: white;
+    color: #c8c7c7;
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
