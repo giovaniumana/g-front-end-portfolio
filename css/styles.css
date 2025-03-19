@@ -660,7 +660,7 @@ span {
 }
 
 .footer ul li a {
-    color: white;
+    color: var(--text-color);
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
 }
@@ -678,7 +678,7 @@ span {
     margin-top: 50px;
     text-align: center;
     font-size: 16px;
-    color: white;
+    color: var(--text-color);
 }
 
 @media(max-width:1285px) {
