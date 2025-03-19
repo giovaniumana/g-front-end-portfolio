@@ -279,7 +279,7 @@ span {
 
     81%,
     100% {
-        content: "Hiker";
+        content: "bit of a hiker";
     }
 }
 
@@ -383,7 +383,7 @@ span {
     font-size: 15px;
     font-weight: 200;
     letter-spacing: .3rem;
-    padding: 0 28px;
+    padding: 0 50px;
     color: white;
     margin: 6px 0 15px;
 }
