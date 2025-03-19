@@ -318,11 +318,11 @@ span {
     font-weight: 300;
     letter-spacing: .5rem;
     text-align: center;
-    margin: 5rem 0;
+    margin: 4rem 0;
 }
 
 .experience {
-    padding: 100px 15px;
+    padding: 95px 15px;
     background: var(--second-bg-color);
 }
 
@@ -433,8 +433,8 @@ span {
 }
 
 .services {
-    margin-top: 9rem;
-    padding-top: 9rem;
+    margin-top: 10rem;
+    padding-top: 10rem;
     background: var(--second-bg-color);
     color: black;
 }
@@ -503,8 +503,8 @@ span {
 
 
 .testimonials {
-    margin-top: 9rem;
-    padding-top: 9rem;
+    margin-top: 10rem;
+    padding-top: 10rem;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -513,7 +513,7 @@ span {
 }
 
 .testimonials .heading {
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 .testimonials-box img {
@@ -529,12 +529,12 @@ span {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .testimonial-item {
     min-height: 550px;
-    max-width: 450px;
+    max-width: 400px;
     background: rgba(0, 0, 0, 0.7);
     border: 3px solid rgba(238, 238, 238, 0.2);
     border-radius: 2rem;
@@ -578,8 +578,8 @@ span {
 
 
 .contact {
-    margin-top: 9rem;
-    padding-top: 9rem;
+    margin-top: 10rem;
+    padding-top: 10rem;
     background-color: var(--bg-color);
 }
 
