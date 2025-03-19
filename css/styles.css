@@ -503,6 +503,8 @@ span {
 
 
 .testimonials {
+    margin-top: 9rem;
+    padding-top: 9rem;
     background-size: cover;
     display: flex;
     justify-content: center;
