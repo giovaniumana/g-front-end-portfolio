@@ -136,8 +136,12 @@ span {
 .home-img img {
     position: relative;
     top: 3rem;
-    right: 8rem;
-    width: 32vw;
+
+    /* Temporary classes 
+    right: 1rem;
+    width: 28vw;  */
+
+    max-width: 385px;
     filter: drop-shadow(0px 0px -5px var(--main-color));
     cursor: pointer;
     transition: 0.6s ease-in-out;
