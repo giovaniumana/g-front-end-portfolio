@@ -578,6 +578,8 @@ span {
 
 
 .contact {
+    margin-top: 9rem;
+    padding-top: 9rem;
     background-color: var(--bg-color);
 }
 
