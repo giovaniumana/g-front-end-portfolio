@@ -416,7 +416,7 @@ span {
     font-size: 15px;
     font-weight: 200;
     line-height: 22px;
-    letter-spacing: .2rem;
+    letter-spacing: .17rem;
 }
 
 ::-webkit-scrollbar {
@@ -457,7 +457,7 @@ span {
     background-color: var(--main-color);
     height: 175px;
     border-radius: 3rem;
-    border: 5px solid transparent;
+    border: 4px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
@@ -480,17 +480,17 @@ span {
 }
 
 .service-info h4 {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 2.4rem;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 1rem;
 }
 
 .service-info p {
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: 400;
     max-height: 100px;
-    line-height: 1.7;
+    line-height: 1.5;
     margin: auto;
 }
 
