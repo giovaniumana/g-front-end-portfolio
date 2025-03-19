@@ -327,7 +327,7 @@ span {
 }
 
 .timeline-items {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -673,7 +673,7 @@ span {
     color: white;
 }
 
-@media(max-width:1000px) {
+@media(max-width:1285px) {
     html {
         font-size: 55%;
     }
@@ -685,6 +685,7 @@ span {
     }
 }
 
+
 @media(max-width:991px) {
     header {
         padding: 2rem 3%;
@@ -694,13 +695,18 @@ span {
         padding: 10rem 3% 2rem;
     }
 
-    .timeline-item::before {
+    .timeline-items::before {
         left: 7px;
     }
 
     .timeline-item:nth-child(odd) {
         padding-right: 0;
         text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
     }
 
     .timeline-dot {
@@ -723,6 +729,8 @@ span {
         padding: 2rem 3%;
     }
 }
+
+
 
 @media(max-width:895px) {
     #menu-icon {
