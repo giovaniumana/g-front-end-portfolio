@@ -19,7 +19,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: #c8c7c7;
-    --main-color: #fc8505;
+    --main-color: #fa5050;
 }
 
 html {
@@ -142,13 +142,13 @@ span {
     width: 28vw;  */
 
     max-width: 385px;
-    filter: drop-shadow(0px 0px -5px var(--main-color));
+    filter: drop-shadow(0px 0px -5px #fa5050);
     cursor: pointer;
     transition: 0.6s ease-in-out;
 }
 
 .home-img img:hover {
-    filter: drop-shadow(0px 0px 5px var(--main-color));
+    filter: drop-shadow(0px 0px 3px #fa5050);
 }
 
 .home-content p {
