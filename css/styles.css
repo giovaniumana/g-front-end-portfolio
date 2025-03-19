@@ -400,17 +400,19 @@ span {
 }
 
 .timeline-content h3 {
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: .2rem;
     color: #c8c7c7;
     margin: 0 0 10px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .timeline-content p {
     color: #c8c7c7;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
     line-height: 22px;
+    letter-spacing: .2rem;
 }
 
 ::-webkit-scrollbar {
