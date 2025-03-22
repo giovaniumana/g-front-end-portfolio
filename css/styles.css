@@ -89,12 +89,13 @@ header {
 }
 
 section {
+    background-image: url("../images/horizon-bg-01.jpg");
+    background-size: cover;
     min-height: 100vh;
-    padding: 10rem 12% 10 rem;
+    padding: 10rem;
 }
 
 .home {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,9 +134,15 @@ span {
     line-height: 1;
 }
 
+
+.home-img {
+    width: 33%;
+}
+
 .home-img img {
     position: relative;
     top: 3rem;
+
 
     /* Temporary classes 
     right: 1rem;
@@ -156,7 +163,7 @@ span {
     font-weight: 150;
     line-height: 1.7;
     letter-spacing: 0.16rem;
-    max-width: 768px;
+    max-width: 1000px;
     margin-top: .55rem;
 }
 
@@ -240,7 +247,7 @@ span {
 
 .text-animation span::after {
     content: "";
-    background-color: var(--bg-color);
+    background-color: rgba(0, 0, 0, 0.0);
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
@@ -780,7 +787,12 @@ span {
 
     .home {
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 5rem 0rem;
+    }
+
+    .home-content {
+        margin-left: 1rem;
+
     }
 
     .home-content h3 {
