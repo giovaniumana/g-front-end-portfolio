@@ -613,15 +613,21 @@ span {
 .contact form .input-box input,
 .contact form textarea {
     width: 100%;
-    padding: 2.5rem;
-    font-size: 1.8rem;
+    padding: 1.7rem;
+    font-size: 1.4rem;
     color: var(--text-color);
     background: var(--second-bg-color);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     resize: none;
 }
+
+.input-group-2 {
+    padding: 1.7rem;
+}
+
+
 
 .contact form .btn {
     margin-top: 2rem;
