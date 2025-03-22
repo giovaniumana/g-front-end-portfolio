@@ -89,7 +89,7 @@ header {
 }
 
 section {
-    background-image: url("../images/horizon-bg-01.jpg");
+    background-image: url("../images/horizon-bg.jpg");
     background-size: cover;
     min-height: 100vh;
     padding: 10rem;
@@ -616,7 +616,7 @@ span {
     padding: 1.7rem;
     font-size: 1.4rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: rgba(13, 13, 13, 0.3);
     border-radius: 2rem;
     border: 2px solid var(--main-color);
     margin: 1rem 0;
