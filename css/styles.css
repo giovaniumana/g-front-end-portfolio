@@ -129,6 +129,7 @@ span {
 }
 
 .home-content h1 {
+    color: var(--main-color);
     font-size: 6rem;
     font-weight: 275;
     padding-top: 23px;
