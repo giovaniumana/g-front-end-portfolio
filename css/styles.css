@@ -16,10 +16,10 @@
 }
 
 :root {
-    --bg-color: #080808;
+    --bg-color: radial-gradient(circle at center, #131313 0%, #080808 70%);
     --second-bg-color: #131313;
     --text-color: #c8c7c7;
-    --main-color: #fa5050;
+    --main-color: #fa505b;
 }
 
 html {
@@ -89,7 +89,7 @@ header {
 }
 
 section {
-    background-image: url("../images/horizon.jpg");
+    background-image: url("../images/neon.jpg");
     background-size: cover;
     min-height: 100vh;
     padding: 10rem;
