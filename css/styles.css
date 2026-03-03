@@ -235,93 +235,11 @@ span {
 
 .text-animation {
     font-size: 34px;
-    font-weight: 600;
+    font-weight: 300;
     min-width: 280px;
     padding-bottom: 30px;
 }
 
-.text-animation span {
-    position: relative;
-}
-
-.text-animation span::before {
-    content: "Graphic Designer";
-    animation: words 20s infinite;
-}
-
-.text-animation span::after {
-    content: "";
-    color: var(--main-color);
-    background-color: rgba(7, 5, 4, 1.0);
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    border-left: 3px solid var(--bg-color);
-    right: -8px;
-    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
-
-@keyframes cursor {
-    to {
-        border-left: 2px solid var(--main-color);
-    }
-}
-
-@keyframes words {
-
-    0%,
-    20% {
-        content: "Graphic Designer";
-    }
-
-    21%,
-    40% {
-        content: "Front-end Developer";
-    }
-
-    41%,
-    60% {
-        content: "UX/UI Designer";
-    }
-
-    61%,
-    80% {
-        content: "Web Developer";
-    }
-
-    81%,
-    100% {
-        content: "bit of a hiker too...";
-    }
-}
-
-@keyframes typing {
-
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95% {
-        width: 0;
-    }
-
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85% {
-        width: calc(100% + 8px);
-    }
-}
 
 /* Education */
 
