@@ -121,9 +121,11 @@ span {
 }
 
 .home-content h3 {
+    font-size: 2.15rem;
+    letter-spacing: 0.75rem;
     margin-top: 1rem;
     padding-top: 1.4rem;
-    font-size: 3.2rem;
+    
     margin-bottom: 0;
     padding-bottom: 0;
 }
