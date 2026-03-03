@@ -134,13 +134,14 @@ span {
     padding-bottom: 0.2rem;
 }
 
+/* Front-End Developer Adjustments here */
 
 .home-content h3 {
     font-size: 2.15rem;
     letter-spacing: 0.75rem;
     margin-top: 1rem;
     padding-top: 1.4rem;
-    padding-left: 3rem;
+    padding-left: 2.25rem;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -148,6 +149,7 @@ span {
 
 .home-content p {
     margin-top: 1rem;
+    padding-left: 15px;
     padding-bottom: 8px;
     margin-bottom: 8px;
 }
@@ -171,7 +173,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 150;
     line-height: 1.7;
     letter-spacing: 0.16rem;
