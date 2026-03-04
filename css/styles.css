@@ -16,8 +16,8 @@
 }
 
 :root {
-    --bg-color: radial-gradient(circle at center, #131313 0%, #080808 70%);
-    --second-bg-color: #131313;
+    --bg-color: #0e0814;
+    --second-bg-color: #160d20;
     --text-color: #c8c7c7;
     --main-color: #f2ddfcac;
 }
@@ -31,7 +31,7 @@ html {
 /* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
 
 body {
-    background: var(--bg-color);
+    background: #5a4e66;
     color: var(--text-color);
 }
 
