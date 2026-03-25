@@ -410,7 +410,7 @@ span {
     background: rgba(0, 0, 0, 0.7);
     height: 192px;
     border-radius: 3rem;
-    border: 2px solid transparent;
+    border: 2px solid rgba(238, 238, 238, 0.2);
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
@@ -419,7 +419,7 @@ span {
     background: rgba(0, 0, 0, 0.7);
     color: black;
     border: 2px solid var(--main-color);
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .service-box .service-info {
