@@ -250,7 +250,7 @@ span {
 }
 
 
-/* Education */
+/* Education Section */
 
 .heading {
     font-size: 2.4rem;
@@ -268,6 +268,11 @@ span {
 .education h2 {
     margin-bottom: 5rem;
 }
+
+
+
+
+
 
 .timeline-items {
     max-width: 1200px;
@@ -449,7 +454,8 @@ span {
 }
 
 
-/* Testimonials Section */
+
+/* Testimonials Section 
 
 .testimonials {
     background: var(--second-bg-color);
@@ -477,8 +483,9 @@ span {
     box-shadow: 0 0 25px var(--main-color);
 }
 
-/* Ratings divs within Testimonials Section */
+*/
 
+/* Ratings divs within Testimonials Section 
 
 .wrapper {
     display: grid;
@@ -530,6 +537,10 @@ span {
     font-size: 2rem;
 }
 
+*/
+
+
+/* Contact Section */
 
 .contact {
     margin-top: 10rem;
