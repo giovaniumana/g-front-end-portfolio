@@ -246,29 +246,57 @@ span {
     box-shadow: 0 0 50px var(--main-color);
 }
 
+
+
+/* Portfolio Button Classes */
+
+.portfolio-btn {
+    display: inline-block;
+    padding: .35rem 2.7rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 3.5rem 0 0 0;
+}
+
+.portfolio-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+}
+
+/* Portfolio Button Classes End */
+
+
 .download-icon {
     padding-top: 3px;
    padding-left: 10px;
-   
+ 
 }
 
 .btn-group {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .btn-group a:nth-of-type(2) {
     background-color: black;
-    color: #ee1d4f;
-    border: 1.7px solid #ee1d4f;
+    color: var(--main-color);
+    border: 1.7px solid var(--main-color);
     box-shadow: 0 0 25px transparent;
 }
 
 .btn-group a:nth-of-type(2):hover {
-    box-shadow: 0 0 25px #ee1d4f;
-    background-color: var(#ee1d4f);
-    color: #ee1d4f;
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: black;
 }
 
 .text-animation {
