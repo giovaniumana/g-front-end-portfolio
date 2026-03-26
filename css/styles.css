@@ -223,6 +223,8 @@ span {
     background-color: var(--main-color);
 }
 
+
+
 .btn {
     display: inline-block;
     padding: .35rem 2.7rem;
@@ -234,7 +236,7 @@ span {
     border: 2px solid transparent;
     letter-spacing: 0.1rem;
     font-weight: 500;
-    transition: 0.03s ease-in-out;
+    transition: 0.3s ease-in-out;
     cursor: pointer;
     margin: 0 3px 0 0;
 }
@@ -244,23 +246,29 @@ span {
     box-shadow: 0 0 50px var(--main-color);
 }
 
+.download-icon {
+    padding-top: 3px;
+   padding-left: 10px;
+   
+}
+
 .btn-group {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .btn-group a:nth-of-type(2) {
     background-color: black;
-    color: var(--main-color);
-    border: 2px solid var(--main-color);
+    color: #ee1d4f;
+    border: 1.7px solid #ee1d4f;
     box-shadow: 0 0 25px transparent;
 }
 
 .btn-group a:nth-of-type(2):hover {
-    box-shadow: 0 0 25px var(--main-color);
-    background-color: var(--main-color);
-    color: black;
+    box-shadow: 0 0 25px #ee1d4f;
+    background-color: var(#ee1d4f);
+    color: #ee1d4f;
 }
 
 .text-animation {
