@@ -25,3 +25,11 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+
+
+const follower = document.querySelector('#cursor-follower');
+document.addEventListener('mousemove', (e) => {
+  follower.style.left = e.clientX + 'px';
+  follower.style.top = e.clientY + 'px';
+});
