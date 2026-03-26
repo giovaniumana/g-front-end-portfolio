@@ -40,13 +40,13 @@ body {
 
 .follower {
   position: fixed;
-  width: 20px;
-  height: 20px;
-  background: radial-gradient(circle, rgba(242,221,252,0.8) 0%, rgba(255,255,255,0) 70%); /* My color */
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(242,221,252,0.3) 0%, rgba(255,255,255,0) 70%); /* My color */
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: transform 0.1s ease-out; /* What adds the "smoothing" adjustment */
+  transition: transform 0.7s ease-out; /* What adds the "smoothing" adjustment */
 }
 
 
