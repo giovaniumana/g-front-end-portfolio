@@ -317,19 +317,18 @@ span {
     margin: 4rem 0;
 }
 
-.education {
+/* Experience Page classes */
+
+.experience {
     padding: 95px 15px;
     background: var(--second-bg-color);
 }
 
-.education h2 {
+.experience h2 {
     margin-bottom: 5rem;
 }
 
-
-
-
-
+/* Experience Page classes End */
 
 .timeline-items {
     max-width: 1200px;
