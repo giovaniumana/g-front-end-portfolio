@@ -728,7 +728,7 @@ span {
         font-size: 55%;
     }
 
-    .services-container {
+    .projects-container {
         padding-bottom: 7rem;
         grid-template-columns: repeat(2, 1fr);
         margin: 0 5rem;
@@ -763,7 +763,7 @@ span {
         left: 0;
     }
 
-    .services {
+    .projects {
         padding-bottom: 7rem;
     }
 
@@ -840,11 +840,11 @@ span {
         width: 56vh;
     }
 
-    .services h2 {
+    .projects h2 {
         margin-bottom: 3rem;
     }
 
-    .services-container {
+    .projects-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
