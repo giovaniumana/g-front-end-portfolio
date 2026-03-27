@@ -458,7 +458,7 @@ span {
     gap: 2.5rem;
 }
 
-.service-box {
+.projects-box {
     background: rgba(0, 0, 0, 0.7);
     height: 192px;
     border-radius: 3rem;
@@ -467,14 +467,14 @@ span {
     transition: 0.4s ease-in-out;
 }
 
-.service-box:hover {
+.projects-box:hover {
     background: rgba(0, 0, 0, 0.7);
     color: black;
     border: 2px solid var(--main-color);
     transform: scale(1.02);
 }
 
-.service-box .service-info {
+.projects-box .service-info {
     color: var(--main-color);
     display: flex;
     flex-direction: column;
@@ -485,14 +485,14 @@ span {
     padding: 5rem 5rem;
 }
 
-.service-info h4 {
+.projects-info h4 {
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1;
     margin-bottom: 1rem;
 }
 
-.service-info p {
+.projects-info p {
     font-size: 1.6rem;
     font-weight: 400;
     max-height: 100px;
