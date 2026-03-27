@@ -435,7 +435,7 @@ span {
 }
 
 
-
+/* Projects classes for Projects Section */
 
 .projects {
     margin-top: 10rem;
@@ -457,6 +457,9 @@ span {
     align-items: center;
     gap: 2.5rem;
 }
+
+/* Projects classes for Projects Section End */
+
 
 .portfolio {
     color:#080808;
