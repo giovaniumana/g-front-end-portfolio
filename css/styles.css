@@ -500,9 +500,6 @@ span {
     margin: auto;
 }
 
-/* Projects classes for Projects Section End */
-
-
 .portfolio {
     color:#080808;
     text-decoration: none;
@@ -516,6 +513,9 @@ span {
     line-height: 1.7;
     letter-spacing: 0.16rem;
 }
+
+/* Projects classes for Projects Section End */
+
 
 
 /* Testimonials Section 
