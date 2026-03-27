@@ -474,7 +474,7 @@ span {
     transform: scale(1.02);
 }
 
-.projects-box .service-info {
+.projects-box .projects-info {
     color: var(--main-color);
     display: flex;
     flex-direction: column;
