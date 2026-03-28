@@ -16,7 +16,7 @@
 }
 
 :root {
-    --bg-color: #0e0814;
+    --bg-color: #091010;
     --second-bg-color: #160d20;
     --text-color: #c8c7c7;
     --main-color: #9999aa;
@@ -322,7 +322,7 @@ span {
 
 .experience {
     padding: 95px 15px;
-    background: #212733;
+    background: #141b20;
 }
 
 .experience h2 {
@@ -440,7 +440,7 @@ span {
 .projects {
     margin-top: 10rem;
     padding-top: 10rem;
-    background: var(--second-bg-color);
+    background: #141b20;
     color: black;
 }
 
@@ -659,7 +659,7 @@ span {
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--second-bg-color);
+    background-color: #091010;
 }
 
 .footer .social {
