@@ -256,11 +256,11 @@ span {
     display: inline-block;
     padding: .35rem 2.7rem;
     background: black;
-    box-shadow: 0 0 15px #6ac9c9;
+    box-shadow: 0 0 15px #96d2d1;
     border-radius: .75rem;
     font-size: 1.6rem;
-    color: #6ac9c9;
-    border: 2px solid #6ac9c9;
+    color: #96d2d1;
+    border: 2px solid #96d2d1;
     letter-spacing: 0.1rem;
     font-weight: 500;
     transition: 0.3s ease-in-out;
@@ -270,7 +270,7 @@ span {
 
 .portfolio-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 50px #6ac9c9;
+    box-shadow: 0 0 50px #96d2d1;
 }
 
 /* Portfolio Button Classes End */
