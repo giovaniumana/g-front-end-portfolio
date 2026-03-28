@@ -31,12 +31,8 @@ html {
 /* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
 
 body {
-  background-color: black;
-  background-image:
-    linear-gradient(
-      black,
-      #33384c
-    );
+  background-color: #33384c;
+  
     color: var(--text-color);
 }
 
