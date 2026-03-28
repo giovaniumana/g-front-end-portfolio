@@ -31,10 +31,10 @@ html {
 /* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
 
 body {
-    background-color: #9999aa;
+  background-color: black;
   background-image:
-    linear-gradient(to right,
-      #9999aa,
+    linear-gradient(
+      black,
       #33384c
     );
     color: var(--text-color);
@@ -329,6 +329,11 @@ span {
 .experience {
     padding: 95px 15px;
     background: #141b20;
+    background-image:
+    radial-gradient(
+      #474d63,
+      #33384c
+    );
 }
 
 .experience h2 {
@@ -446,8 +451,14 @@ span {
 .projects {
     margin-top: 10rem;
     padding-top: 10rem;
-    background: #141b20;
     color: black;
+    background: #141b20;
+    background-image:
+    radial-gradient(
+      #474d63,
+      #33384c
+    );
+    
 }
 
 .projects h2 {
