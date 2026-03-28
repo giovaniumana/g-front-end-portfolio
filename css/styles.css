@@ -31,9 +31,15 @@ html {
 /* Ensures that our body content occupies the entire screen. Recommended every time I start a new web project */
 
 body {
-    background: var(--bg-color);
+    background-color: #9999aa;
+  background-image:
+    linear-gradient(to right,
+      #9999aa,
+      #33384c
+    );
     color: var(--text-color);
 }
+
 
 
 /* Cursor follower styles */
@@ -433,7 +439,7 @@ span {
     background-color: var(--bg-color);
     width: 50px;
 }
-
+ 
 
 /* Projects classes for Projects Section */
 
