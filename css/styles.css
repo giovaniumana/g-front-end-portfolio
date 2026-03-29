@@ -472,7 +472,7 @@ span {
 }
 
 .projects-box {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.33);
     height: 192px;
     border-radius: 3rem;
     border: 2px solid rgba(238, 238, 238, 0.2);
@@ -481,7 +481,7 @@ span {
 }
 
 .projects-box:hover {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.2);
     color: black;
     border: 2px solid var(--main-color);
     transform: scale(1.02);
