@@ -398,7 +398,7 @@ span {
 }
 
 .timeline-content {
-    background-color: var(--bg-color);
+    background: rgba(0, 0, 0, 0.33);
     border: 3px solid var(--main-color);
     padding: 30px 50px;
     border-radius: 4rem;
@@ -408,6 +408,7 @@ span {
 }
 
 .timeline-content:hover {
+    background: rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color);
 }
