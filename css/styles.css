@@ -475,7 +475,8 @@ span {
     background: rgba(0, 0, 0, 0.33);
     height: 192px;
     border-radius: 3rem;
-    border: 2px solid rgba(238, 238, 238, 0.2);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 7px var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
@@ -484,6 +485,7 @@ span {
     background: rgba(0, 0, 0, 0.2);
     color: black;
     border: 2px solid var(--main-color);
+    box-shadow: 0 0 12px var(--main-color);
     transform: scale(1.02);
 }
 
