@@ -626,7 +626,7 @@ span {
 
 .contact h2 {
     margin-bottom: 3rem;
-    color: white;
+    color: var(--text-color);
 }
 
 .contact form {
@@ -660,7 +660,6 @@ span {
 .input-group-2 {
     padding: 1.7rem;
 }
-
 
 
 .contact form .btn {
