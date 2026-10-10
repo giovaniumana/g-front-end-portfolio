@@ -322,6 +322,16 @@ span {
 
 /* Experience Page classes */
 
+.experience-description {
+    text-align: center;
+    color: #9a9a9a;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 1.6rem;
+    font-weight: 150;
+    line-height: 1.7;
+    letter-spacing: 0.16rem;
+}
+
 .experience {
     padding: 95px 15px;
     background: #141b20;
