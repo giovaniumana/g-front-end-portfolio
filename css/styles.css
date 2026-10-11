@@ -214,7 +214,7 @@ span {
     font-size: 2.5rem;
     border-radius: 50%;
     color: var(--main-color);
-    margin: 2rem 0 3.4rem 2rem;
+    margin: 4rem 0 3.4rem 2rem;
     transition: 0.3s ease-in-out;
 }
 
@@ -254,7 +254,7 @@ span {
 
 .portfolio-btn {
     display: inline-block;
-    transform: translateX(10px);
+    transform: translateX(15px);
     padding: .35rem 2.5rem;
     background: black;
     box-shadow: 0 0 15px #96d2d1;
@@ -270,8 +270,9 @@ span {
 }
 
 .portfolio-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 50px #96d2d1;
+    transform:scaleX(1.25);
+    transform: translateX(15px);
+    box-shadow: 0 0 22px #96d2d1;
 }
 
 /* Portfolio Button Classes End */
