@@ -474,7 +474,7 @@ margin-left: 1.4rem;
 
 /* Projects classes for Projects Section */
 
-.projects {
+.work {
     margin-top: 10rem;
     padding-top: 10rem;
     radial-gradient(
@@ -484,12 +484,12 @@ margin-left: 1.4rem;
     
 }
 
-.projects h2 {
+.work h2 {
     margin-bottom: 5rem;
     color: var(--text-color);
 }
 
-.projects-container {
+.work-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 250px;
@@ -498,7 +498,7 @@ margin-left: 1.4rem;
     gap: 2.5rem;
 }
 
-.projects-box {
+.work-box {
     background: rgba(0, 0, 0, 0.33);
     height: 192px;
     border-radius: 3rem;
@@ -508,7 +508,7 @@ margin-left: 1.4rem;
     transition: 0.4s ease-in-out;
 }
 
-.projects-box:hover {
+.work-box:hover {
     background: rgba(0, 0, 0, 0.2);
     color: black;
     border: 2px solid var(--main-color);
@@ -516,7 +516,7 @@ margin-left: 1.4rem;
     transform: scale(1.02);
 }
 
-.projects-box .projects-info {
+.work-box .projects-info {
     color: var(--main-color);
     display: flex;
     flex-direction: column;
@@ -527,14 +527,14 @@ margin-left: 1.4rem;
     padding: 5rem 5rem;
 }
 
-.projects-info h4 {
+.work-info h4 {
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 1;
     margin-bottom: 1rem;
 }
 
-.projects-info p {
+.work-info p {
     font-size: 1.6rem;
     font-weight: 400;
     max-height: 100px;
