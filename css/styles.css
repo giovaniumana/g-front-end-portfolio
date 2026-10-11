@@ -254,7 +254,8 @@ span {
 
 .portfolio-btn {
     display: inline-block;
-    padding: .35rem 2.7rem;
+    transform: translateX(10px);
+    padding: .35rem 2.5rem;
     background: black;
     box-shadow: 0 0 15px #96d2d1;
     border-radius: .75rem;
