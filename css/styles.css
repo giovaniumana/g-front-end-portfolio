@@ -210,10 +210,10 @@ span {
     width: 3.33rem;
     height: 3.33rem;
     background: transparent;
-    border: 2px solid #dfd9e3;
+    border: 2px solid var(--main-color);
     font-size: 2.5rem;
     border-radius: 50%;
-    color: #dfd9e3;
+    color: var(--main-color);
     margin: 4rem 0 3.4rem 2rem;
     transition: 0.3s ease-in-out;
 }
@@ -225,17 +225,33 @@ span {
     background-color: var(--main-color);
 }
 
+.btn-group > .btn {
+    display: inline-block;
+    padding: .35rem 2.7rem;
+    
+   
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 3px 0 0;
+}
+
 
 
 .btn {
     display: inline-block;
     padding: .35rem 2.7rem;
-    border-radius: .75rem;
-    box-shadow: 0 0 10px #dfd9e3;
+   
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 4rem;
     font-size: 1.6rem;
-    color: #dfd9e3;
-    border: 2px solid #dfd9e3;
-    
+    color: black;
+    border: 2px solid transparent;
     letter-spacing: 0.1rem;
     font-weight: 500;
     transition: 0.3s ease-in-out;
@@ -245,7 +261,7 @@ span {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px #dfd9e3;
+    box-shadow: 0 0 50px var(--main-color);
 }
 
 
@@ -345,7 +361,7 @@ margin-left: 1.4rem;
     text-align: center;
     margin-top: 0%;
     margin-bottom: 6rem;
-    color: #dfd9e3;
+    color: #9a9a9a;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 1.7rem;
     font-weight: 150;
