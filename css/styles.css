@@ -74,7 +74,7 @@ header {
 
 .logo {
     max-height: 30px;
-    color: var(--text-color);
+    filter: invert(93%) sepia(23%) saturate(292%) hue-rotate(112deg) brightness(104%) contrast(96%);
     font-weight: 400;
     letter-spacing: 0.2rem;
     cursor: pointer;
