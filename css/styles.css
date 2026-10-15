@@ -299,7 +299,7 @@ margin-left: 1.4rem;
   background: none !important;       /* Removes the background color/image */
   background-color: transparent;      /* Ensures transparency */
   border: 2.1px solid  hsl(269, 15%, 68%);    /* Example: Adds a clean border instead */    
-  color: hsl(267, 15%, 74%);     /* Changes the text color */
+  color: hsl(267, 12%, 85%);     /* Changes the text color */
   font-weight: 300;   
   letter-spacing: .15rem;
   padding: .75rem 3rem;   
