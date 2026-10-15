@@ -94,7 +94,7 @@ header {
     color: var(--text-color);
     margin-left: 3rem;
     font-weight: 200;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     transition: 0.5s ease;
     border-bottom: 3px solid transparent;
 }
@@ -232,10 +232,10 @@ span {
     display: inline-block;
     padding: .35rem 2.7rem;
     border-radius: .75rem;
-    box-shadow: 0 0 0 .25px #dfd9e3;
+    box-shadow: 0 0 8px #96d2d1;
     font-size: 1.6rem;
-    color: #dfd9e3;
-    border: 1.5px solid #dfd9e3;
+    color: #cffaf9;
+    border: 1.5px solid #96d2d1;
     letter-spacing: 0.1rem;
     font-weight: 250;
     transition: 0.3s ease-in-out;
@@ -245,7 +245,7 @@ span {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px #dfd9e3;
+    box-shadow: 0 0 15px #96d2d1;
 }
 
 
@@ -298,7 +298,8 @@ margin-left: 1.4rem;
 
 .btn-custom-clear {
   background: none !important;       /* Removes the background color/image */
-  background-color: transparent;      /* Ensures transparency */
+  background-color: transparent;  /* Ensures transparency */
+  box-shadow: 0 0 22px #96d2d1;   
   border: 2.1px solid  hsl(269, 15%, 68%);    /* Example: Adds a clean border instead */    
   color: hsl(267, 12%, 85%);     /* Changes the text color */
   font-weight: 300;   
