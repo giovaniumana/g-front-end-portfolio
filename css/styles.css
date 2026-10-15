@@ -255,15 +255,15 @@ span {
 .portfolio-btn {
     display: inline-block;
     transform: translateX(15px);
-    padding: .35rem 2.5rem;
+    padding: .35rem 1.7rem .35rem 1.8rem;
     
     box-shadow: 0 0 15px #96d2d1;
     border-radius: .75rem;
     font-size: 1.6rem;
     color: #96d2d1;
     border: 2px solid #96d2d1;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
+    letter-spacing: 0.25rem;
+    font-weight: 300;
     transition: 0.3s ease-in-out;
     cursor: pointer;
     margin: 3.5rem 0 0 0;
