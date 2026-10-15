@@ -235,7 +235,6 @@ span {
     font-size: 1.6rem;
     color: #dfd9e3;
     border: 2px solid #dfd9e3;
-    
     letter-spacing: 0.1rem;
     font-weight: 500;
     transition: 0.3s ease-in-out;
@@ -294,6 +293,17 @@ span {
 
 .btn {
 margin-left: 1.4rem;
+}
+
+.btn-custom-clear {
+  background: none !important;       /* Removes the background color/image */
+  background-color: transparent;      /* Ensures transparency */
+  border: 2.1px solid  hsl(269, 15%, 68%);    /* Example: Adds a clean border instead */    
+  color: hsl(267, 15%, 74%);     /* Changes the text color */
+  font-weight: 300;   
+  letter-spacing: .15rem;
+  padding: .75rem 3rem;   
+  border-radius: .7rem;           
 }
 
 
