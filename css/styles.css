@@ -323,6 +323,140 @@ margin-left: 1.4rem;
     color: black;
 }
 
+
+
+
+/* Work Section */
+
+
+.work {
+    margin-top: 10rem;
+    padding-top: 10rem;
+    radial-gradient(
+      #474d63,
+      #33384c
+    ); 
+}
+
+
+/* 1. The main section container fills the screen */
+
+.work-container {
+width: 100%;
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+ align-items: center;
+ height: 100vh;
+ overflow: hidden;
+ box-sizing: border-box;
+}
+
+.work h2 {
+    margin-bottom: 5rem;
+    color: var(--text-color);
+}
+
+
+/* 2. Left side stays completely static */
+
+.work-left-column {
+width: 40%; /* Adjust width split as desired */
+height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center; /* Centers your paragraph vertically */
+padding-right: 2rem;
+}
+
+
+.work-left-column p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+
+
+/* 3. Right side gets its own independent scrollbar */
+
+.work-right-column {
+height: 100%;
+display: flex;
+flex-direction: column;
+
+overflow-y: auto; /* Adds vertical scrollbar ONLY when projects overflow */
+
+padding-right: 1rem; /* Gives breathing room for the scrollbar */
+
+/* Optional: Smooth scrolling inside the project pane */
+
+scroll-behavior: smooth; 
+}
+
+
+/* 4. Individual project cards inside the right column */
+
+.work-box {
+ margin-bottom: 2rem; /* Spacing between your stacked projects */
+min-height: 200px; /* Example height for your projects */
+max-width: 500px;
+ background: rgba(0, 0, 0, 0.33);
+border-radius: 1rem;
+border: 2px solid var(--main-color);
+box-shadow: 0 0 7px var(--main-color);
+cursor: pointer;
+transition: 0.4s ease-in-out;
+}
+
+
+.work-box:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: black;
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 12px var(--main-color);
+    transform: scale(1.0);
+}
+
+
+.work-box .work-info {
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 3rem 3rem;
+}
+
+
+.work-info h2 {
+    color: var(--text-color);
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+
+.work-info p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    max-height: 100px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+
+
+@media (max-width: 768px) {
+  .work-container { flex-direction: column; height: auto; }
+  .work-left-column { position: static; width: 100%; }
+  .work-right-column { width: 100%; overflow-y: visible; }
+}
+
 .text-animation {
     font-size: 34px;
     font-weight: 300;
@@ -331,7 +465,11 @@ margin-left: 1.4rem;
 }
 
 
-/* Education Section */
+
+
+
+
+/* Experience Section */
 
 .heading {
     font-size: 2.4rem;
@@ -341,8 +479,6 @@ margin-left: 1.4rem;
     margin: 4rem 0;
 }
 
-
-/* Experience Page classes */
 
 .experience-heading {
     font-size: 2.4rem;
@@ -378,7 +514,7 @@ margin-left: 1.4rem;
     margin-bottom: 5rem;
 }
 
-/* Experience Page classes End */
+
 
 
 .timeline-items {
@@ -485,25 +621,10 @@ margin-left: 1.4rem;
 }
  
 
-/* Projects classes for Projects Section */
+/* Experience Section End */
 
-.work {
-    margin-top: 10rem;
-    padding-top: 10rem;
-    radial-gradient(
-      #474d63,
-      #33384c
-    ); 
-}
 
-.work-left-column {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 50px;
-    margin-right: 250px;
-    align-items: center;
-    gap: 2.5rem;
-}
+
 
 /* Back up or original container
 .work-container {
@@ -518,56 +639,7 @@ margin-left: 1.4rem;
 
 
 
-.work h2 {
-    margin-bottom: 5rem;
-    color: var(--text-color);
-}
 
-
-.work-box {
-    background: rgba(0, 0, 0, 0.33);
-    height: 182px;
-    border-radius: 1rem;
-    border: 2px solid var(--main-color);
-    box-shadow: 0 0 7px var(--main-color);
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-}
-
-.work-box:hover {
-    background: rgba(0, 0, 0, 0.2);
-    color: black;
-    border: 2px solid var(--main-color);
-    box-shadow: 0 0 12px var(--main-color);
-    transform: scale(1.02);
-}
-
-.work-box .work-info {
-    color: var(--main-color);
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    max-height: 200px;
-    justify-content: left;
-    align-items: baseline;
-    padding: 3rem 3rem;
-}
-
-.work-info h2 {
-    color: var(--text-color);
-    font-size: 1.75rem;
-    font-weight: 300;
-    line-height: 1;
-    margin-bottom: 1rem;
-}
-
-.work-info p {
-    font-size: 1.6rem;
-    font-weight: 400;
-    max-height: 100px;
-    line-height: 1.5;
-    margin: auto;
-}
 
 .portfolio {
     color:#080808;
@@ -722,6 +794,12 @@ margin-left: 1.4rem;
     margin-top: 2rem;
 }
 
+/* Contact Section End */
+
+
+
+
+
 .footer {
     position: relative;
     bottom: 0;
@@ -796,11 +874,7 @@ margin-left: 1.4rem;
         font-size: 55%;
     }
 
-    .projects-container {
-        padding-bottom: 7rem;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 5rem;
-    }
+
 }
 
 
@@ -831,9 +905,6 @@ margin-left: 1.4rem;
         left: 0;
     }
 
-    .projects {
-        padding-bottom: 7rem;
-    }
 
     .testimonials .wrapper {
         grid-template-columns: repeat(1, 1fr);
@@ -908,11 +979,4 @@ margin-left: 1.4rem;
         width: 56vh;
     }
 
-    .projects h2 {
-        margin-bottom: 3rem;
-    }
-
-    .projects-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
