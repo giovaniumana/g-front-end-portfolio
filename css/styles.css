@@ -282,7 +282,9 @@ span {
     filter: invert(93%) sepia(23%) saturate(292%) hue-rotate(112deg) brightness(104%) contrast(96%);
     padding-top: 5px;
    padding-left: 10px;
- 
+   width: 21px;         /* Controls the size of your arrow icon */
+   height: auto;
+   vertical-align: baseline; /* Aligns the arrow vertically with the text baseline */
 }
 
 .btn-group {
@@ -433,7 +435,7 @@ transition: 0.4s ease-in-out;
 
 
 .work-info h2 {
-    color: #93d2c8;
+    color: #79c5c3;
     background-color: transparent; 
     font-size: 1.75rem;
     font-weight: 300;
@@ -451,11 +453,20 @@ transition: 0.4s ease-in-out;
 
 .work-info h2 a:hover {
      color: var(--main-color);
-    border-bottom: 1.5px solid var(--main-color); /* This will now fade in smoothly over .6s */
+    border-bottom: 1.5px solid #79c5c3; /* This will now fade in smoothly over .6s */
     opacity: 0.8; /* Subtle fade effect on hover */
    
 }
 
+
+.work-info .link-arrow {
+    color: #79c5c3;
+}
+
+.work-info .link-arrow:hover {
+    color: var(--main-color);
+    opacity: 0.8; /* Subtle fade effect on hover */
+}
 
 .work-info p {
     font-size: 1.4rem;
