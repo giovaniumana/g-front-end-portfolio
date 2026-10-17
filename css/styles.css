@@ -401,7 +401,7 @@ margin-bottom: 30px;
     margin: 0 6px;      /* Pushes "View my" and "work." slightly away from the button edges */
     border: 1.5px solid var(--main-color);
     border-radius: .75rem;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.23);
     
     /* Smooth transition for your .6s animation sync */
     transition: all 0.6s ease;
@@ -465,7 +465,7 @@ transition: 0.4s ease-in-out;
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
-    padding: 3rem 3rem;
+    padding: 3rem 3rem 2rem 3rem;
 }
 
 
@@ -510,6 +510,31 @@ transition: 0.4s ease-in-out;
     line-height: 1.5;
     margin: auto;
 }
+
+.project-tags {
+    display: flex;
+    gap: 10px;         /* Creates a clean gap between each button tag */
+    margin-top: 18px;  /* Pushes the buttons safely down below your description text */
+    flex-wrap: wrap;   /* Prevents layout breaking by wrapping tags on small phone screens */
+    
+}
+
+.tag {
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    padding: 5px 14px;      /* Generates a clean button-like shape */
+    background: transparent; /* Makes the button body fully transparent */
+    border: 1px solid var(--main-color); /* Outlines the button with your brand color */
+    border-radius: .75rem;     /* Subtle rounded corners to look professional */
+    color: var(--main-color); 
+    text-transform: uppercase; /* Keeps code languages uniformly formatted */
+    pointer-events: none;   /* Ensures visitors know they are static and not clickable */
+}
+
+
+
+
 
 
 
