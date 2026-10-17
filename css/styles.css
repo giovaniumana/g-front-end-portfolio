@@ -376,8 +376,7 @@ margin-bottom: 30px;
 
 .work-left-column p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-    font-size: 2.3rem;
+    font-size: 3.3rem;
     font-weight: 100;
     padding-right: 48px;
     padding-left: 12px;
@@ -386,8 +385,8 @@ margin-bottom: 30px;
     color: hsl(276, 6%, 67%);
 }
 
-.work-subtext {
-    font-size: 1.1rem;
+#work-subtext {
+    font-size: 2rem;
     line-height: 2; /* Gives the sentence breathing room for the button height */
     
 }
