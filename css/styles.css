@@ -437,7 +437,7 @@ scroll-behavior: smooth;
 
 .work-box {
  margin-bottom: 2rem; /* Spacing between your stacked projects */
-min-height: 200px; /* Example height for your projects */
+min-height: 150px; /* Example height for your projects */
 max-width: 500px;
  background: rgba(0, 0, 0, 0.33);
 border-radius: 1rem;
