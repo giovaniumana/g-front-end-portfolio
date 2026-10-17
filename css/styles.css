@@ -386,6 +386,35 @@ margin-bottom: 30px;
     color: hsl(276, 6%, 67%);
 }
 
+.work-subtext {
+    font-size: 1.1rem;
+    line-height: 2; /* Gives the sentence breathing room for the button height */
+    
+}
+
+.btn-glow-inline {
+    display: inline-block;
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 17px;
+    padding: 0px 20px; /* Slimmer padding so it fits elegantly inside a sentence line */
+    margin: 0 6px;      /* Pushes "View my" and "work." slightly away from the button edges */
+    border: 1.5px solid var(--main-color);
+    border-radius: .75rem;
+    background: transparent;
+    
+    /* Smooth transition for your .6s animation sync */
+    transition: all 0.6s ease;
+    box-shadow: 0 0 8px #96d2d1;
+}
+
+.btn-glow-inline:hover {
+    background-color: transparent;
+    color: #cffaf9; /* Changes text to white on hover for contrast */
+    box-shadow: 0 0 12px #96d2d1; /* Elegant, tight glowing borderline */
+}
+
 
 
 /* 3. Right side gets its own independent scrollbar */
