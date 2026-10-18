@@ -422,6 +422,7 @@ margin-bottom: 30px;
 height: 100%;
 display: flex;
 flex-direction: column;
+min-width: 482px;
 
 overflow-y: auto; /* Adds vertical scrollbar ONLY when projects overflow */
 
@@ -436,10 +437,13 @@ scroll-behavior: smooth;
 /* 4. Individual project cards inside the right column */
 
 .work-box {
- margin-bottom: 3rem; /* Spacing between your stacked projects */
+display: flex;
+margin-bottom: 3rem; /* Spacing between your stacked projects */
 min-height: 150px; /* Example height for your projects */
-max-width: 500px;
- background: rgba(0, 0, 0, 0.33);
+max-width: 550px;
+min-width: 482px;
+gap: 0%;
+background: rgba(0, 0, 0, 0.33);
 border-radius: 1rem;
 border: 2px solid var(--main-color);
 box-shadow: 0 0 7px var(--main-color);
@@ -457,15 +461,23 @@ transition: 0.4s ease-in-out;
 }
 
 
+
 .work-box .work-info {
     color: var(--main-color);
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-height: 200px;
+    height: auto;
     justify-content: left;
     align-items: baseline;
-    padding: 3rem 3rem 2rem 3rem;
+    padding: 3rem 2rem 3rem 3rem;
+}
+
+.work-info .work-thumb {
+    margin-top: 3.3rem;
+    margin-left: 1rem;
+    border: 2px solid var(--main-color);
+    border-radius: .70rem;
 }
 
 
@@ -536,8 +548,6 @@ transition: 0.4s ease-in-out;
 
 
 
-
-
 @media (max-width: 768px) {
   .work-container { flex-direction: column; height: auto; }
   .work-left-column { position: static; width: 100%; }
@@ -550,9 +560,6 @@ transition: 0.4s ease-in-out;
     min-width: 280px;
     padding-bottom: 30px;
 }
-
-
-
 
 
 
@@ -600,8 +607,6 @@ transition: 0.4s ease-in-out;
 .experience h2 {
     margin-bottom: 5rem;
 }
-
-
 
 
 .timeline-items {
@@ -709,22 +714,6 @@ transition: 0.4s ease-in-out;
  
 
 /* Experience Section End */
-
-
-
-
-/* Back up or original container
-.work-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 50px;
-    margin-right: 250px;
-    align-items: center;
-    gap: 2.5rem;
-}
-*/
-
-
 
 
 
