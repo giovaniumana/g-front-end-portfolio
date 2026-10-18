@@ -393,7 +393,7 @@ margin-bottom: 30px;
 
 .btn-glow-inline {
     display: inline-block;
-    color: var(--main-color);
+    color: hsl(267, 12%, 75%);
     text-decoration: none;
     font-weight: 200;
     font-size: 17px;
