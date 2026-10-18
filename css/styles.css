@@ -522,7 +522,7 @@ transition: 0.4s ease-in-out;
 .tag {
     font-size: 1.2rem;
     font-weight: 200;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.1px;
     padding: 5px 14px;      /* Generates a clean button-like shape */
     background: transparent; /* Makes the button body fully transparent */
     border: 1px solid var(--main-color); /* Outlines the button with your brand color */
