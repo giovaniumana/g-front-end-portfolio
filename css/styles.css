@@ -382,18 +382,18 @@ margin-bottom: 30px;
     padding-left: 12px;
     letter-spacing: .14rem;
     padding-top: 10vh;
-    color: hsl(276, 6%, 67%);
+    color: hsl(267, 12%, 71%);
 }
 
 #work-subtext {
     font-size: 2rem;
     line-height: 2; /* Gives the sentence breathing room for the button height */
-    
+    color: hsl(267, 12%, 71%);
 }
 
 .btn-glow-inline {
     display: inline-block;
-    color: hsl(267, 12%, 75%);
+    color: hsl(267, 12%, 74%);
     text-decoration: none;
     font-weight: 200;
     font-size: 17px;
