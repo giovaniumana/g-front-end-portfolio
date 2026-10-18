@@ -436,7 +436,7 @@ scroll-behavior: smooth;
 /* 4. Individual project cards inside the right column */
 
 .work-box {
- margin-bottom: 2rem; /* Spacing between your stacked projects */
+ margin-bottom: 3rem; /* Spacing between your stacked projects */
 min-height: 150px; /* Example height for your projects */
 max-width: 500px;
  background: rgba(0, 0, 0, 0.33);
