@@ -531,19 +531,18 @@ min-width: 482px;
 gap: 0%;
 background: rgba(0, 0, 0, 0.33);
 border-radius: 1rem;
-border: 2px solid var(--main-color);
-box-shadow: 0 0 7px var(--main-color);
+border: .2px solid #96d2d1;
+
 cursor: pointer;
-transition: 0.4s ease-in-out;
+transition: 0.6s ease-in-out;
 }
 
 
 .work-box:hover {
     background: rgba(0, 0, 0, 0.2);
     color: black;
-    border: 2px solid var(--main-color);
-    box-shadow: 0 0 12px var(--main-color);
-    transform: scale(1.0);
+    box-shadow: 0 0 4px #96d2d1;
+    transform: scale(.975);
 }
 
 
