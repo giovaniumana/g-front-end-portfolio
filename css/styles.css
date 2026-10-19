@@ -513,10 +513,8 @@ transition: 0.4s ease-in-out;
 .work-info .git-icon {
     margin-left: 3rem;
     filter: invert(93%) sepia(20%) saturate(320%) hue-rotate(178deg) brightness(92%) contrast(96%);
-  
    vertical-align: middle;
 }
-
 
 
 
