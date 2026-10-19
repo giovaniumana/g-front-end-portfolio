@@ -111,7 +111,7 @@ window.addEventListener('load', () => {
   width: 100%;
   height: 100vh;
   
-  /* 🎨 CHANGE THIS LINE TO YOUR BRAND COLOR: */
+  
   background-color: #462626; /* Example: Sleek Dark Matte Black */
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Deep Blue Gradient */
 
@@ -390,7 +390,6 @@ margin-left: 1.4rem;
   background: none !important;       /* Removes the background color/image */
   background-color: transparent;  /* Ensures transparency */
   box-shadow: 0 0 8px #96d2d1;   
-  border: 2.1px solid  hsl(269, 15%, 68%);    /* Example: Adds a clean border instead */    
   color: hsl(267, 12%, 85%);     /* Changes the text color */
   font-weight: 300;   
   letter-spacing: .15rem;
