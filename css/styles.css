@@ -390,8 +390,8 @@ margin-left: 1.4rem;
   background: none !important;       /* Removes the background color/image */
   background-color: transparent;  /* Ensures transparency */
   box-shadow: 0 0 8px #96d2d1;   
-  color: hsl(267, 12%, 85%);     /* Changes the text color */
-  font-weight: 300;   
+  color: #cffaf9;     /* Changes the text color */
+  font-weight: 100;   
   letter-spacing: .15rem;
   padding: .75rem 3rem;   
   border-radius: .7rem;           
