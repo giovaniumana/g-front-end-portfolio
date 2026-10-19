@@ -36,7 +36,93 @@ body {
     color: var(--text-color);
 }
 
+/* Base styles for the preloader container */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color:#252435; /* Change to match your brand background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Keeps it above everything else */
+  transition: opacity 0.6s ease-in-out, visibility 0.6s;
+}
 
+/* Base styles for the logo + Fade-In Animation */
+#preloader-logo {
+  max-width: 150px; /* Adjust size as needed */
+  opacity: 0;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+/* Keyframes for the initial logo fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9); /* Slight scale up while fading in */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Class triggered by JS when the page loads: Zooms and Fades Out the Logo */
+#preloader-logo.zoom-out {
+  opacity: 0;
+  transform: scale(4); /* Adjust scale factor to control the zoom distance */
+  transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.6s ease-out;
+}
+
+/* Class triggered by JS to fade out the entire white background */
+#preloader.fade-away {
+  opacity: 0;
+  visibility: hidden;
+}
+
+3. The JavaScript Logic
+
+This script listens for the window load event (which fires when all images, styles, and scripts are fully loaded). It triggers the zoom-out animation first, followed quickly by fading out the background.
+javascript
+window.addEventListener('load', () => {
+  const preloader = document.getElementById('preloader');
+  const logo = document.getElementById('preloader-logo');
+
+  // 1. Wait a tiny moment or start immediately on page load
+  setTimeout(() => {
+    // 2. Trigger the logo to zoom away and fade out
+    logo.classList.add('zoom-out');
+    
+    // 3. Slightly delay fading the background so the logo zoom is visible
+    setTimeout(() => {
+      preloader.classList.add('fade-away');
+    }, 200); // Fades background 200ms after logo begins zooming
+    
+  }, 500); // Optional: keeps preloader visible for 500ms minimum so it doesn't flash too fast
+});
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  
+  /* 🎨 CHANGE THIS LINE TO YOUR BRAND COLOR: */
+  background-color: #462626; /* Example: Sleek Dark Matte Black */
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Deep Blue Gradient */
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.6s ease-in-out, visibility 0.6s;
+}
+    
 
 /* Cursor follower styles */
 
@@ -241,6 +327,7 @@ span {
     transition: 0.3s ease-in-out;
     cursor: pointer;
     margin: 0 3px 0 0;
+    
 }
 
 .btn:hover {
@@ -273,6 +360,7 @@ span {
     transform:scaleX(1.25);
     transform: translateX(15px);
     box-shadow: 0 0 22px #96d2d1;
+
 }
 
 /* Portfolio Button Classes End */
@@ -488,7 +576,6 @@ transition: 0.4s ease-in-out;
     font-weight: 300;
     line-height: 1;
     margin-bottom: 1rem;
-
 }
 
 .work-info h2 a {
