@@ -529,7 +529,7 @@ min-width: 482px;
 gap: 0%;
 background: rgba(0, 0, 0, 0.33);
 border-radius: 1rem;
-border: .2px solid #96d2d1;
+border: .2px solid #24958c;
 
 cursor: pointer;
 transition: 0.6s ease-in-out;
@@ -759,18 +759,18 @@ transition: 0.6s ease-in-out;
 
 .timeline-content {
     background: rgba(0, 0, 0, 0.33);
-    border: 3px solid var(--main-color);
+    border: .2px solid #24958c;
     padding: 30px 50px;
     border-radius: 1rem;
-    box-shadow: 0 0 10px var(--main-color);
+    
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 
 .timeline-content:hover {
     background: rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
-    box-shadow: 0 0 25px var(--main-color);
+    transform: scale(1.003);
+    box-shadow: 0 0 12px var(--main-color);
 }
 
 .timeline-content h3 {
