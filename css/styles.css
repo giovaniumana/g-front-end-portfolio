@@ -142,8 +142,6 @@ window.addEventListener('load', () => {
 
 
 
-
-
 header {
     position: fixed;
     top: 0;
@@ -1063,3 +1061,30 @@ transition: 0.6s ease-in-out;
     }
 
 }
+
+/* ========================================================
+    STAGGERED FADE IN UP (Perfect Domino Effect)
+   ======================================================== */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUpEffect 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    
+    /* ⏱️ START AT 2.3s, then add a 200ms gap for each step extra */
+    animation-delay: calc(2.3s + (var(--delay, 0) * 240ms));
+    
+    will-change: transform, opacity;
+}
+
+@keyframes fadeInUpEffect {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
