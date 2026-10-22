@@ -19,7 +19,7 @@
     --bg-color: #091010;
     --second-bg-color: #160d20;
     --text-color: #c8c7c7;
-    --main-color: #9999aa;
+    --main-color: #24958c;
 }
 
 html {
@@ -735,6 +735,9 @@ transition: 0.6s ease-in-out;
     padding-left: calc(50% + 30px);
 }
 
+
+//* Temp Off Dot Start
+
 .timeline-dot {
     height: 21px;
     width: 21px;
@@ -747,6 +750,7 @@ transition: 0.6s ease-in-out;
     top: 10px;
 }
 
+    Temp Off Dot End *//
 
 .timeline-date {
     font-size: 15px;
