@@ -1061,7 +1061,11 @@ transition: 0.6s ease-in-out;
     animation: fadeInUpEffect 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     
     /* START AT 2.3s, then add a 200ms gap for each step extra */
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 46dd969165b44fb9f6c600bc7f4ce17e68109184
     animation-delay: calc(2.3s + (var(--delay, 0) * 240ms));
     
     will-change: transform, opacity;
