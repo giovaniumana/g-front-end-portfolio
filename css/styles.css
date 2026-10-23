@@ -736,21 +736,6 @@ transition: 0.6s ease-in-out;
 }
 
 
-//* Temp Off Dot Start
-
-.timeline-dot {
-    height: 21px;
-    width: 21px;
-    background-color: var(--main-color);
-    box-shadow: 0 0 25px var(--main-color),
-        0 0 50px var(--main-color);
-    position: absolute;
-    left: calc(50% - 8px);
-    border-radius: 50%;
-    top: 10px;
-}
-
-    Temp Off Dot End *//
 
 .timeline-date {
     font-size: 15px;
@@ -826,6 +811,7 @@ transition: 0.6s ease-in-out;
 }
 
 /* Projects classes for Projects Section End */
+
 
 
 
@@ -1074,7 +1060,8 @@ transition: 0.6s ease-in-out;
     transform: translateY(30px);
     animation: fadeInUpEffect 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
     
-    /* ⏱️ START AT 2.3s, then add a 200ms gap for each step extra */
+    /* START AT 2.3s, then add a 200ms gap for each step extra */
+
     animation-delay: calc(2.3s + (var(--delay, 0) * 240ms));
     
     will-change: transform, opacity;
