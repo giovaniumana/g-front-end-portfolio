@@ -318,7 +318,8 @@ span {
     border-radius: .75rem;
     box-shadow: 0 0 8px #96d2d1;
     font-size: 1.6rem;
-    color: #cffaf9;
+    color: #6ddbd1;
+    
     
     letter-spacing: 0.1rem;
     font-weight: 250;
@@ -330,7 +331,8 @@ span {
 
 .btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px #96d2d1;
+    box-shadow: 0 0 15px var(--main-color);
+    color: #86f5eb;
 }
 
 
@@ -387,8 +389,9 @@ margin-left: 1.4rem;
 .btn-custom-clear {
   background: none !important;       /* Removes the background color/image */
   background-color: transparent;  /* Ensures transparency */
-  box-shadow: 0 0 5px #96d2d1;   
-  color: #cffaf9;     /* Changes the text color */
+  border: 1px solid #24958c;
+  box-shadow: 0 0 5px #24958c;   
+  
   font-weight: 100;   
   letter-spacing: .15rem;
   padding: .75rem 3rem;   
