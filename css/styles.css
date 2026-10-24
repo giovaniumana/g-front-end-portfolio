@@ -851,7 +851,8 @@ transition: 0.6s ease-in-out;
     color: var(--text-color);
     background: rgba(0, 0, 0, 0.33);
     border-radius: 1rem;
-    box-shadow: 0 0 4px #96d2d1; 
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 4px var(--main-color); 
     margin: 1rem 0;
     resize: none;
 }
