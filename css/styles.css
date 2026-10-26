@@ -262,22 +262,6 @@ span {
 }
 
 
-.home-img {
-    width: 33%;
-}
-
-.home-img img {
-    position: relative;
-    top: 3rem;
-    max-width: 385px;
-    filter: drop-shadow(0px 0px -5px #fa5050);
-    cursor: pointer;
-    transition: 0.6s ease-in-out;
-}
-
-.home-img img:hover {
-    filter: drop-shadow(0px 0px 3px #fa5050);
-}
 
 .home-content p {
     color: #dfd9e3;
