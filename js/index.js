@@ -3,6 +3,9 @@
 // ==========================================
 
 document.addEventListener("DOMContentLoaded", () => {
+  // =========================
+  //  PRELOADER CODE 
+  // =========================
   const preloader = document.getElementById('preloader');
   const logo = document.getElementById('preloader-logo');
 
@@ -24,46 +27,59 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }, 1600); 
   }
-});
 
-// =========================
-//  NEW PRELOADER CODE END 
-// =========================
+  // =========================
+  //  ELEMENT SELECTION 
+  // =========================
+  // Moved inside DOMContentLoaded so variables never return 'null' if the script loads early
+  const menuIcon = document.querySelector('#menu-icon');
+  const navbar = document.querySelector('.navbar');
+  const sections = document.querySelectorAll('section');
+  const navlinks = document.querySelectorAll('header nav a');
+  const follower = document.querySelector('#cursor-follower');
 
+  // =========================
+  //  SCROLL SPY (NAV HIGHLIGHT)
+  // =========================
+  window.onscroll = () => {
+      let top = window.scrollY;
 
+      sections.forEach(sec => {
+          let offset = sec.offsetTop - 150;
+          let height = sec.offsetHeight;
+          let id = sec.getAttribute('id');
 
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
-let sections = document.querySelectorAll('section');
-let navlinks = document.querySelectorAll('header nav a');
+          // Ensure section has an ID before checking it
+          if (id && top >= offset && top < offset + height) {
+              // 1. Instantly remove 'active' from all links
+              navlinks.forEach(link => link.classList.remove('active'));
+              
+              // 2. Select the parent/anchor correctly without the broken child space element
+              let activeLink = document.querySelector('header nav a[href*=' + id + ']');
+              if (activeLink) {
+                  activeLink.classList.add('active');
+              }
+          }
+      });
+  };
 
+  // =========================
+  //  MOBILE MENU TOGGLE
+  // =========================
+  if (menuIcon && navbar) {
+      menuIcon.onclick = () => {
+          menuIcon.classList.toggle('bx-x');
+          navbar.classList.toggle('active');
+      };
+  }
 
-window.onscroll = () => {
-    sections.forEach(sec => {
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 150;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute('id');
-
-        if (top >= offset && top < offset + height) {
-            navlinks.forEach(links => {
-                links.classList.remove('active');
-                document.querySelector('header nav a [href*=' + id + ']').classList.add('active')
-            })
-        }
-    })
-}
-
-
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-}
-
-
-
-const follower = document.querySelector('#cursor-follower');
-document.addEventListener('mousemove', (e) => {
-  follower.style.left = e.clientX + 'px';
-  follower.style.top = e.clientY + 'px';
+  // =========================
+  //  CURSOR FOLLOWER
+  // =========================
+  if (follower) {
+      document.addEventListener('mousemove', (e) => {
+        follower.style.left = e.clientX + 'px';
+        follower.style.top = e.clientY + 'px';
+      });
+  }
 });
